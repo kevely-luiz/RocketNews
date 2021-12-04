@@ -59,56 +59,65 @@ p{
     color:#FFFFFF;
     margin: 9px 30px 0 30px;
 }
-
-.form {
-    grid-area: background;
-    margin-left: 30px;
-    position:relative;
-    top:250px;
+#form {
+    margin-left: 2.25rem;
+    margin-top: 50px;
 }
-form label{
-    display:block;
-    font-family: Spartan, sans-serif;
-    font-size: 14px;
+  
+#form > fieldset {
+    border: none;
+    padding: 0;
+}
+  
+fieldset > legend {
+    color: var(--form-color);
+    font-family: 'Spartan', 'sans-serif';
     font-weight: 700;
-    color:var(--form-color);
-    margin-bottom: 17px;
+    font-size: 0.87rem;
+    line-height: 1.18rem;
 }
-form #email{
-    /* offset-x | offset-y | blur-radius | color */
-    box-shadow: 1px 0px 20px 0px black;
-    padding: 17px;
-    width: 750px;
-}
-input#email::placeholder{
-    color:var(--form-color);
-}
-form .greenline{
-    width:5px;
-    height: 49px;
-    background-color:var(--title-color);
-    position: relative;
-}
-form button{
-    background-color:var(--bg-button-color);
-    position:relative;
-    height:49px;
-    width:49px;
-}
+  
+#email {
+    margin-top: 1.06rem;
+    width: 798px;
+    display: flex;
+  }
+  
+  #email > input {
+    width: 798px;
+    border: none;
+    border-left: solid 5px var(--title-color); /*greenline*/
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+    font-family: 'Work Sans', 'sans-serif';
+    font-size: 0.75rem;
+    line-height: 0.87rem;
+    color: var(--form-color);
+    padding: 10px;
+  }
+  
+  #email > button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: var(--bg-button-color);
+    z-index: 1;
+  }
 
-.link a{
-    font-family: Spartan, sans-serif;
+  .link {
+    margin-top: 368px;
+    margin-left: -1148px;
+}
+  .link a {
+    text-decoration: none;
+    color: var(--bg-button-color);
+    font-family: 'Spartan', 'sans-serif';
     font-weight: 700;
-    color: var(--bg-button-color)
-}
+    font-size: 0.88rem;
+    line-height: 1.18rem;
+    display: flex;
+    align-items: center;
+  } 
 
-.link{
-    position: fixed;
-    right: 1126px;
-    top: 537px;
-    display:flex;
-    align-items: center; /* alinha verticalmente */
-}
 form #input{
     display:flex;
     align-items: center; /* alinha verticalmente */
