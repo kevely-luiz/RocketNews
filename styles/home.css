@@ -123,8 +123,11 @@ form #input{
     bottom: -54px;
 }
 
-input:focus { /*retirar a borda do input */
+input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
 
+button:hover { 
+    filter: brightness(1.75);
+}
