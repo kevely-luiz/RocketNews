@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img alt="RocketNews" src=".github/capa.png" width="100%">
+  <img alt="RocketNews" src=".github/RocketNewsIMG.png" width="100%">
 </p>
 
 
