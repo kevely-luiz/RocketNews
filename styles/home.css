@@ -24,7 +24,12 @@ body{
     "background img";
 
 }
-
+main{
+    background-color: var(--body-bg-color);
+    position: absolute;
+    width: 675px;
+    height: 625px;
+}
 header img{
     grid-area: header;
     margin-left: 30px;
