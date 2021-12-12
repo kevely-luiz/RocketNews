@@ -104,10 +104,10 @@ fieldset > legend {
   }
 
   .link {
-    margin-top: 368px;
-    margin-left: -1148px;
+    margin-top: 36px;
+    margin-left: 30px;
 }
-  .link > a {
+  .link a {
     text-decoration: none;
     color: var(--bg-button-color);
     font-family: 'Spartan', 'sans-serif';
